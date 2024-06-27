@@ -13,6 +13,7 @@ namespace MatrixMultiple {
             for (int j = 0; j < col2; ++j) {
                 for (int k = 0; k < col1; ++k) {
                     result[i][j] += mat1[i][k] * mat2[k][j];
+                    // nhân hàng i ma trận này và cột i ma trận kia 
                 }
             }
         }

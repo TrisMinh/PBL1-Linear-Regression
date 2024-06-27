@@ -12,6 +12,7 @@ namespace MatrixTranspose {
         for (int i = 0; i < rows; ++i) {
             for (int j = 0; j < cols; ++j) {
                 transposed[j][i] = matrix[i][j];
+                // hàng i ma trận này là cột i ma trận kia
             }
         }
         return transposed;
